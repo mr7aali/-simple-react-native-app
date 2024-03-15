@@ -8,7 +8,7 @@ const LoginScreen = () => {
         <View>
             <View style={styles.headerTextContainer}>
                 <Text style={styles.loginText}>Login</Text>
-                <Text style={styles.loginSubTitel}>By signing in you are agreeing our
+                <Text style={styles.loginSubTitel}>By signing in you are agreeing {'\n'} our
                     <Text style={{ color: "#036BB9" }}> Term and privacy Policy</Text>
                 </Text>
             </View>
@@ -21,7 +21,6 @@ const LoginScreen = () => {
 const styles = StyleSheet.create({
     headerTextContainer: {
         marginTop: 60,
-        marginHorizontal: 100,
         alignItems: "center",
 
     },
